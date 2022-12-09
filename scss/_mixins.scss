@@ -1,0 +1,53 @@
+@mixin btn {
+  font-family: "public-700";
+  font-size: 15px;
+  padding: 16px 24.5px 14px 26.5px;
+  color: #fbfcfe;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  // hover
+  &:hover {
+    background: #da6d97;
+  }
+  // active
+  &:active {
+    background: #ba4270;
+  }
+}
+@mixin d-flex-a-c-b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+@mixin d-flex-a-c-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@mixin inp-btn {
+  padding: 19px 103px 14px 27px;
+  border: none;
+  border-radius: 24px;
+  outline: none;
+}
+@mixin mini-btn {
+  background-color: transparent;
+  border: 1px solid #fbfcfe;
+  border-radius: 24px;
+  padding: 16px 32px 14px 32px;
+  cursor: pointer;
+  font-family: "public-700";
+  font-size: 15px;
+  color: #fbfcfe;
+  &:hover {
+    background: #ffffff;
+    color: #1b262f;
+  }
+  &:active {
+    background-color: #7d7d7d4e;
+  }
+}

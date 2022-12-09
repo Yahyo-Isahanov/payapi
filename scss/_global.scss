@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #edf3f8;
+  // overflow: hidden;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fbfcfe;
+}
+.btn {
+  @include btn;
+}
+.inp-btn {
+  @include inp-btn;
+}

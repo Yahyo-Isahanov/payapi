@@ -1,0 +1,122 @@
+.hero {
+  &__texts {
+    height: 243px;
+    width: 546px;
+    margin-top: 152px;
+  }
+  &__title {
+    font-family: "dmserif";
+    font-size: 72px;
+    line-height: 72px;
+    color: #36536b;
+  }
+  &__bg {
+    opacity: 40%;
+    z-index: -2;
+    width: 615px;
+    height: 780px;
+    background-image: url(../img/pyatno-top-right.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0px;
+  }
+  &__bg-p {
+    background-image: url(../../img/phone.png);
+    width: 395px;
+    height: 709px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: 103px;
+    right: 195px;
+  }
+  &__form {
+    margin-top: 50px;
+  }
+  &__btn {
+    margin-left: -43px;
+  }
+  &__text {
+    margin-left: 25px;
+    margin-top: 16px;
+    font-family: "public-400";
+    font-size: 15px;
+    color: #6c8294;
+  }
+  &__link {
+    font-family: "public-700";
+    font-size: 15px;
+    color: #6c8294;
+  }
+}
+@media only screen and(max-width:769px) {
+  .hero {
+    &__title {
+      font-size: 48px;
+      line-height: 56px;
+      text-align: center;
+    }
+    &__bg {
+      background-image: url(../img/mobile__pyatno.png);
+      width: 771px;
+      height: 561px;
+      right: 0;
+    }
+    &__bg-p {
+      background-image: url(../img/phone__mobile.png);
+      top: 125px;
+      right: 87px;
+      height: 303px;
+    }
+
+    &__texts {
+      width: 573px;
+      height: 225px;
+      margin: 372px auto 0 auto;
+    }
+    &__form {
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
+    }
+  }
+}
+@media only screen and(max-width:376px) {
+  .hero {
+    &__bg {
+      width: 600px;
+    }
+    &__bg-p {
+      width: 160px;
+      left: 108px;
+    }
+    &__texts {
+      width: 327px;
+    }
+    &__text {
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 36px;
+      text-align: center;
+    }
+    &__inp {
+      width: 100%;
+    }
+    &__btn {
+      width: 100%;
+      margin-top: 16px;
+      margin-left: 0;
+    }
+    &__text {
+      font-family: "public-400";
+      font-size: 15px;
+      line-height: 18px;
+    }
+    &__title {
+      font-size: 32px;
+      line-height: 39px;
+    }
+  }
+}
